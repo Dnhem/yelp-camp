@@ -17,7 +17,7 @@ const init = async () => {
   });
 
   await server.start();
-  console.log(`Server running on ${server.info.uri}`);
+  console.log(`Server is currently running on ${server.info.uri}`);
 };
 
 process.on("unhandledRejection", (err) => {
